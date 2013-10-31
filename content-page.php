@@ -4,9 +4,9 @@
  *
  * Loop content in page template (page.php)
  *
- * @package WordPress
- * @subpackage Foundation, for WordPress
- * @since Foundation, for WordPress 1.0
+ * @package 6Tools
+ * @subpackage 6Tools, for WordPress
+ * @since 6Tools, for WordPress 1.0
  */
 ?>
 <article class="grid__item one-whole content--primary">

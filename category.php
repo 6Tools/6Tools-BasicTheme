@@ -1,9 +1,10 @@
 <?php
 /**
- * Template Catégorie
+ * Category Template
  *
- *
- * @package mOveo
+ * @package 6Tools
+ * @subpackage 6Tools, for WordPress
+ * @since 6Tools, for WordPress 1.0
  */
 
 get_header(); ?>

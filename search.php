@@ -1,6 +1,10 @@
 <?php
 /**
  * Template Name: Search Page
+ *
+ * @package 6Tools
+ * @subpackage 6Tools, for WordPress
+ * @since 6Tools, for WordPress 1.0
  */
 
 get_header(); ?>

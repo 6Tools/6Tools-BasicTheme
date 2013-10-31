@@ -3,7 +3,8 @@
  * The Sidebar containing the primary widget areas.
  *
  * @package 6Tools
- * @since 6Tools 0.1
+ * @subpackage 6Tools, for WordPress
+ * @since 6Tools, for WordPress 1.0
  */
 ?><!--
  sidebar

@@ -1,10 +1,12 @@
 <?php
 
 /**
- * Base de site administrable 
- * @package mOveo 4 6-Design
- * @subpackage 6Tools
- * @since 
+ * Base de site administrable
+ *
+ * @package 6Tools
+ * @subpackage 6Tools, for WordPress
+ * @since 6Tools, for WordPress 1.0
+ * @author mOveo
  */
 
 
