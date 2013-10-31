@@ -122,12 +122,12 @@ add_action( 'widgets_init', 'sixtools_widgets_init' );
 
  function fb_change_mce_buttons( $initArray ) {
 
- 	$style_formats = array(
+    $style_formats = array(
 
         array('title' => 'Titre', 'block' => 'h1', 'classes' => 'title'),
         array('title' => 'Sous-titre', 'block' => 'h2', 'classes' => 'subtitle'),
-     	array('title' => 'Paragraphe', 'block' => 'p'),
-     	array('title' => 'Paragraphe fond gris', 'block' => 'p', 'classes' => 'island')
+        array('title' => 'Paragraphe', 'block' => 'p'),
+        array('title' => 'Paragraphe fond gris', 'block' => 'p', 'classes' => 'island')
 
     );
 
@@ -236,7 +236,7 @@ function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
     $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
 }
 
-function start_lvl(&$output, $depth, $args = array()) {
+function start_lvl(&$output, $depth = 0, $args = array()) {
     $indent = str_repeat("\t", $depth);
     $pages = array(103,111,113,118,131,120,   326,333,337,323,344,340);
     $active = (in_array(get_the_ID(),$pages)) ? "active" : "";
@@ -485,13 +485,13 @@ function get_post_content($id){
 // Ajoute is_mobile class in body class
 add_filter('body_class','is_mobile_body_class');
 function is_mobile_body_class($classes) {
-	// add 'class-name' to the $classes array
+    // add 'class-name' to the $classes array
         if(is_mobile())
             $classes[] = 'is_mobile';
         else
             $classes[] = 'no_mobile';
-	// return the $classes array
-	return $classes;
+    // return the $classes array
+    return $classes;
 }
 
 // Fonction is_mobile() 

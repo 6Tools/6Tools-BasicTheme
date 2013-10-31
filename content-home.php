@@ -1,8 +1,8 @@
 <?php
 /**
- * Content Single
+ * Content Home
  *
- * Loop content in single post template (single.php)
+ * Loop content in single post template (front-page.php)
  *
  * @package WordPress
  * @subpackage Foundation, for WordPress
@@ -36,22 +36,10 @@
 ?>
  
 
-<article class="grid overflow--hidden height-100">
-<?php if(my_wp_is_mobile()): ?>
-    <div class="grid__item one-whole content--secondary">
-<?php else: ?>
-    <div class="grid__item one-half desk-one-third palm-one-whole content--secondary close height-100">
-    <a href="#" class="btn--open-close"><span aria-hidden="true" class="icon-ico-plus icon--text"></span><span class="btn--text"><?php _e("Open/close content", "tools"); ?></span></a>
-<?php endif; ?>
+<article class="grid">
+    <div class="grid__item one-whole content--primary">
         <div class="inner-content">
-	<?php the_content(); ?>
+           <?php the_content(); ?>
         </div>
     </div>
 </article>
-
-<div class="grid grid--actus">
-    <div class="grid__item desk-one-third one-half">
-        <h4 class="title"><?php _e("Latest", "tools"); ?> <strong><?php _e("news", "tools"); ?> : </strong></h4>
-    </div><!--
-    --><?php echo $content; ?>
-</div>
