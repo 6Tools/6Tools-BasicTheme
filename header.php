@@ -42,7 +42,7 @@ if ( !is_user_logged_in() )
                     <img src="http://www.6tools.fr/wp-content/themes/6tools-basic/images/logo.png" class="img--full">
                 </a>
 
-                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav nav--stacked nav--main', 'fallback_cb' => 'foundation_page_menu', 'container' => 'nav', 'container_class' => 'hide-on-palm', 'walker' => new foundation_navigation() ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav nav--stacked nav--main', 'fallback_cb' => 'foundation_page_menu', 'container' => 'nav', 'container_class' => 'hide-on-palm', 'walker' => new sixtools_navigation() ) ); ?>
         </div>
     </div>
             
