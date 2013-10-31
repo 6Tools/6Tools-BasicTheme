@@ -4,9 +4,9 @@
  *
  * Setup the header for our theme
  *
- * @package WordPress
- * @subpackage Foundation, for WordPress
- * @since Foundation, for WordPress 1.0
+ * @package 6Tools
+ * @subpackage 6Tools, for WordPress
+ * @since 6Tools, for WordPress 1.0
  */
 if ( !is_user_logged_in() )
     die("Vous devez être connecté pour accéder à ce site !");
@@ -33,16 +33,16 @@ if ( !is_user_logged_in() )
 </head>
 
 <body <?php body_class(); ?>>
-    <div class="grid grid--collapse">
+    <div class="grid grid--center">
         
-        <div class="grid__item grid__item--content one-whole">
+        <div class="grid__item grid__item--content one-fifth">
     
-            
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="logo ">
                     <img src="http://www.6tools.fr/wp-content/themes/6tools-basic/images/logo.png" class="img--full">
                 </a>
+        </div><!--
 
-                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav nav--stacked nav--main', 'fallback_cb' => 'foundation_page_menu', 'container' => 'nav', 'container_class' => 'hide-on-palm', 'walker' => new sixtools_navigation() ) ); ?>
-        </div>
+         --><div class="grid__item grid__item--content four-fifths">
+         	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav nav--stacked nav--main', 'fallback_cb' => 'foundation_page_menu', 'container' => 'nav', 'container_class' => 'hide-on-palm', 'walker' => new sixtools_navigation() ) ); ?>
+         </div>
     </div>
-            

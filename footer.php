@@ -4,9 +4,9 @@
  *
  * Displays content shown in the footer section
  *
- * @package WordPress
- * @subpackage Foundation, for WordPress
- * @since Foundation, for WordPress 1.0
+ * @package 6Tools
+ * @subpackage 6Tools, for WordPress
+ * @since 6Tools, for WordPress 1.0
  */
 ?>
 <!-- Footer -->
@@ -32,7 +32,7 @@
         </div><!-- 
         --><div class="grid__item one-quarter">
             <ul class="nav nav--stacked nav--stacked--center">
-                <li class="nav--title">réalisations</li>
+                <li class="nav--title">Réalisations</li>
                 <li><a href="#">Element de menu vertical</a></li>
                 <li><a href="#">Element de menu classique</a></li>
                 <li><a href="#">Element court</a></li>
@@ -41,7 +41,7 @@
         </div><!-- 
         --><div class="grid__item one-quarter">
             <ul class="nav nav--stacked nav--stacked--center">
-                <li class="nav--title">contact</li>
+                <li class="nav--title">Contact</li>
                 <li><a href="#">Element long de menu</a></li>
                 <li><a href="#">Element court</a></li>
                 <li><a href="#">Element de menu vertical</a></li>
