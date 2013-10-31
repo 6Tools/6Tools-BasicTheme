@@ -21,10 +21,10 @@
     ob_start();
     
 ?><div class="grid__item desk-one-third one-half">
-    <p><a href="<?php echo get_permalink($articles[0]->ID); ?>"><?php echo get_the_time('d/m',$articles[0]->ID); ?> <span>: <?php echo tools_readmore($articles[0]->post_content, 70); ?> (...)</span></a></p>
+    <p><a href="<?php echo get_permalink($articles[0]->ID); ?>"><?php echo get_the_time('d/m',$articles[0]->ID); ?> <span>: <?php echo sixtools_readmore($articles[0]->post_content, 70); ?> (...)</span></a></p>
     </div><!--
  --><div class="grid__item desk-one-third hide-on-lap">
-        <p><a href="<?php echo get_permalink($articles[1]->ID);?>"><?php echo get_the_time('d/m',$articles[1]->ID); ?> <span>: <?php echo tools_readmore($articles[1]->post_content, 70); ?> (...)</span></a></p>
+        <p><a href="<?php echo get_permalink($articles[1]->ID);?>"><?php echo get_the_time('d/m',$articles[1]->ID); ?> <span>: <?php echo sixtools_readmore($articles[1]->post_content, 70); ?> (...)</span></a></p>
     </div><?php 
     
     wp_reset_postdata();
