@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KDA\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-22 13:22+0100\n"
+"PO-Revision-Date: 2013-10-29 11:55+0100\n"
+"Last-Translator: mOveo <moveo@moveo-webdesign.com>\n"
+"Language-Team: KDA <contact@kda.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: B:\\tRAVAUX\\Clients\\6\\KDA\\PROD_WEB\\wp-content\\themes\\6design-KDA\n"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/category.php:14
+msgid "Blog category"
+msgstr "Catégorie blog"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-aside.php:17
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr "Lien vers la page %s"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-home.php:41
+msgid "Open/close content"
+msgstr "Ouvrir/fermer contenu"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-home.php:50
+msgid "Latest"
+msgstr "Dernière<span class='hide-on-lap'>s</span>"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-home.php:50
+msgid "news"
+msgstr "actualité<span class='hide-on-lap'>s</span>"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-services.php:20
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-single.php:66
+msgid "Back"
+msgstr "Retour"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-single.php:58
+msgid "read more"
+msgstr "lire la suite"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/content-specialisation.php:53
+msgid "Related services"
+msgstr "Services associés"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/functions.php:106
+msgid "Main menu"
+msgstr "Menu principal"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/functions.php:123
+msgid "The primary widget area"
+msgstr "Zone principal de widget"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/functions.php:314
+msgid "Concept - Format Horizontal"
+msgstr ""
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/functions.php:315
+msgid "Concept - Format Vertical"
+msgstr ""
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/functions.php:492
+msgid "Share on"
+msgstr "Partager sur"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/header.php:48
+msgid "Copyright"
+msgstr "Tous droits réservés"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/header.php:50
+msgid "Legal Notice"
+msgstr "Mentions légales"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/header.php:51
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/index.php:18
+msgid "Search <strong>results</strong>"
+msgstr "Résultat de <strong>la recherche</strong>"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/index.php:25
+msgid "Not Found"
+msgstr "Page introuvable"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/index.php:26
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Toutes nos excuses, mais la page que vous demandez est introuvable ou a été supprimée."
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/page-realisations.php:13
+msgid "Categories"
+msgstr "Catégories"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/page-references.php:13
+msgid "Our clients"
+msgstr "Nos Références clients"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/page-references.php:16
+msgid "Alphabetic order"
+msgstr "Ordre alphabétique"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/page-references.php:72
+msgid "Display all"
+msgstr "Tout afficher"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/page-references.php:73
+msgid "Reduce"
+msgstr "Réduire"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/search.php:28
+msgid "No result corresponding to this research."
+msgstr "Aucun resultat correspondant à cette recherche."
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/searchform.php:15
+msgid "Search the entire site..."
+msgstr "Rechercher sur le site..."
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/sidebar-blog.php:10
+msgid "Category"
+msgstr "Catégories"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/sidebar-blog.php:22
+#, php-format
+msgid "View all posts in %s"
+msgstr "Voir tous les articles dans %s"
+
+#: B:\tRAVAUX\Clients\6\KDA\PROD_WEB\wp-content\themes\6design-KDA/sidebar-blog.php:29
+msgid "Archives"
+msgstr "Archives"
+
